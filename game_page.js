@@ -68,7 +68,7 @@ function check()
         else
         {
             question_turn = "player1";
-            document.getElementById("player_question").innerHTML = "Question Turn - " = player1_name;
+            document.getElementById("player_question").innerHTML = "Question Turn - " + player1_name;
         }
         if(answer_turn == "player1")
         {
